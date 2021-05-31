@@ -74,6 +74,14 @@ span {
   text-align: center;
 }
 
+#sidebar:hover {
+  min-width: 250px;
+  max-width: 250px;
+  background: #7386d5;
+  color: #fff;
+  transition: all 0.3s;
+}
+
 #sidebar.active .sidebar-header h3,
 #sidebar.active .CTAs {
   display: none;
